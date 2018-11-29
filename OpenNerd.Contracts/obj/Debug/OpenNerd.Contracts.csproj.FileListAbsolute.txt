@@ -1,0 +1,5 @@
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Animal Paradise\AnimalParadise.Contracts\bin\Debug\AnimalParadise.Contracts.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Animal Paradise\AnimalParadise.Contracts\bin\Debug\AnimalParadise.Contracts.pdb
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Animal Paradise\AnimalParadise.Contracts\obj\Debug\OpenNerd.Contracts.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Animal Paradise\AnimalParadise.Contracts\obj\Debug\AnimalParadise.Contracts.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Animal Paradise\AnimalParadise.Contracts\obj\Debug\AnimalParadise.Contracts.pdb
