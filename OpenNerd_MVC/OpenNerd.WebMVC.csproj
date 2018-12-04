@@ -197,7 +197,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\ComicController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -265,7 +265,12 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Comic\Index.cshtml" />
+    <Content Include="Views\Shared\DisplayTemplates\DateTimeOffSet.cshtml" />
+    <Content Include="Views\Product\Create.cshtml" />
+    <Content Include="Views\Product\Details.cshtml" />
+    <Content Include="Views\Product\Edit.cshtml" />
+    <Content Include="Views\Product\Delete.cshtml" />
+    <Content Include="Views\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -284,15 +289,15 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AnimalParadise.Data\OpenNerd.Data.csproj">
+    <ProjectReference Include="..\OpenNerd.Data\OpenNerd.Data.csproj">
       <Project>{8a73eac9-cbaf-4693-a594-be734d2f3217}</Project>
       <Name>OpenNerd.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AnimalParadise.Models\OpenNerd.Models.csproj">
+    <ProjectReference Include="..\OpenNerd.Models\OpenNerd.Models.csproj">
       <Project>{0a0742f7-6a9b-4bf7-8288-55da1380f524}</Project>
       <Name>OpenNerd.Models</Name>
     </ProjectReference>
-    <ProjectReference Include="..\AnimalParadise.Services\OpenNerd.Services.csproj">
+    <ProjectReference Include="..\OpenNerd.Services\OpenNerd.Services.csproj">
       <Project>{9ffcd1e0-f2ca-4172-be25-4afc62ddb8df}</Project>
       <Name>OpenNerd.Services</Name>
     </ProjectReference>

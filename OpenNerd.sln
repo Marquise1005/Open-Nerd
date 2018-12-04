@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2048
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.WebMVC", "Animal Paradise_MVC\OpenNerd.WebMVC.csproj", "{549F362C-BB56-40F1-AD97-D3F678304DEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Contracts", "OpenNerd.Contracts\OpenNerd.Contracts.csproj", "{29756635-E4F1-486F-B5CE-9199CEBD7004}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Data", "AnimalParadise.Data\OpenNerd.Data.csproj", "{8A73EAC9-CBAF-4693-A594-BE734D2F3217}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Data", "OpenNerd.Data\OpenNerd.Data.csproj", "{8A73EAC9-CBAF-4693-A594-BE734D2F3217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Models", "AnimalParadise.Models\OpenNerd.Models.csproj", "{0A0742F7-6A9B-4BF7-8288-55DA1380F524}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Models", "OpenNerd.Models\OpenNerd.Models.csproj", "{0A0742F7-6A9B-4BF7-8288-55DA1380F524}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Services", "AnimalParadise.Services\OpenNerd.Services.csproj", "{9FFCD1E0-F2CA-4172-BE25-4AFC62DDB8DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Services", "OpenNerd.Services\OpenNerd.Services.csproj", "{9FFCD1E0-F2CA-4172-BE25-4AFC62DDB8DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Contracts", "AnimalParadise.Contracts\OpenNerd.Contracts.csproj", "{29756635-E4F1-486F-B5CE-9199CEBD7004}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Tests", "OpenNerd.Tests\OpenNerd.Tests.csproj", "{FC0658A7-B4DC-49C1-8F52-7EAB69DB62E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.Tests", "Animal_Paradise.Tests\OpenNerd.Tests.csproj", "{FC0658A7-B4DC-49C1-8F52-7EAB69DB62E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenNerd.WebMVC", "OpenNerd_MVC\OpenNerd.WebMVC.csproj", "{549F362C-BB56-40F1-AD97-D3F678304DEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{549F362C-BB56-40F1-AD97-D3F678304DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{549F362C-BB56-40F1-AD97-D3F678304DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{549F362C-BB56-40F1-AD97-D3F678304DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{549F362C-BB56-40F1-AD97-D3F678304DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29756635-E4F1-486F-B5CE-9199CEBD7004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29756635-E4F1-486F-B5CE-9199CEBD7004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29756635-E4F1-486F-B5CE-9199CEBD7004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29756635-E4F1-486F-B5CE-9199CEBD7004}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8A73EAC9-CBAF-4693-A594-BE734D2F3217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8A73EAC9-CBAF-4693-A594-BE734D2F3217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A73EAC9-CBAF-4693-A594-BE734D2F3217}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,14 +37,14 @@ Global
 		{9FFCD1E0-F2CA-4172-BE25-4AFC62DDB8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FFCD1E0-F2CA-4172-BE25-4AFC62DDB8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FFCD1E0-F2CA-4172-BE25-4AFC62DDB8DF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{29756635-E4F1-486F-B5CE-9199CEBD7004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{29756635-E4F1-486F-B5CE-9199CEBD7004}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{29756635-E4F1-486F-B5CE-9199CEBD7004}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{29756635-E4F1-486F-B5CE-9199CEBD7004}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FC0658A7-B4DC-49C1-8F52-7EAB69DB62E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FC0658A7-B4DC-49C1-8F52-7EAB69DB62E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC0658A7-B4DC-49C1-8F52-7EAB69DB62E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC0658A7-B4DC-49C1-8F52-7EAB69DB62E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549F362C-BB56-40F1-AD97-D3F678304DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549F362C-BB56-40F1-AD97-D3F678304DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549F362C-BB56-40F1-AD97-D3F678304DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549F362C-BB56-40F1-AD97-D3F678304DEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

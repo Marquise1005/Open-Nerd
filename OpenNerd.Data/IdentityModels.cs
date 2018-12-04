@@ -32,7 +32,10 @@ namespace OpenNerd.Data
             return new ApplicationDbContext();
         }
 
-        public DbSet<Comic> Comics { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Author> Authors { get; set; }
+       
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

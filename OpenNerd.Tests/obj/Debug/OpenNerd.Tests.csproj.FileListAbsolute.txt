@@ -12,3 +12,17 @@ C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Animal Paradise\Anima
 C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Animal Paradise\Animal_Paradise.Tests\obj\Debug\OpenNerd.Tests.csproj.CopyComplete
 C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Animal Paradise\Animal_Paradise.Tests\obj\Debug\Animal_Paradise.Tests.dll
 C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Animal Paradise\Animal_Paradise.Tests\obj\Debug\Animal_Paradise.Tests.pdb
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\bin\Debug\Animal_Paradise.Tests.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\bin\Debug\Animal_Paradise.Tests.pdb
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\obj\Debug\OpenNerd.Tests.csprojAssemblyReference.cache
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\obj\Debug\OpenNerd.Tests.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\obj\Debug\OpenNerd.Tests.csproj.CopyComplete
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\obj\Debug\Animal_Paradise.Tests.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Tests\obj\Debug\Animal_Paradise.Tests.pdb

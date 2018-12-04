@@ -54,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Author.cs" />
+    <Compile Include="Migrations\201812032124222_firstmigration.cs" />
+    <Compile Include="Migrations\201812032124222_firstmigration.Designer.cs">
+      <DependentUpon>201812032124222_firstmigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Migrations\201811291514465_InitialCreate.cs" />
     <Compile Include="Migrations\201811291514465_InitialCreate.Designer.cs">
@@ -72,7 +78,7 @@
       <DependentUpon>201811291951306_m1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Comic.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811291951306_m1.resx">
       <DependentUpon>201811291951306_m1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812032124222_firstmigration.resx">
+      <DependentUpon>201812032124222_firstmigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
