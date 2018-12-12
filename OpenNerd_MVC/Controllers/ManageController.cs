@@ -6,9 +6,9 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
-using Animal_Paradise_MVC.Models;
+using Open_Nerd_MVC.Models;
 
-namespace Animal_Paradise_MVC.Controllers
+namespace Open_Nerd_MVC.Controllers
 {
     [Authorize]
     public class ManageController : Controller

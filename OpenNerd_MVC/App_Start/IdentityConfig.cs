@@ -10,10 +10,10 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using Animal_Paradise_MVC.Models;
+using Open_Nerd_MVC.Models;
 using OpenNerd.Data;
 
-namespace Animal_Paradise_MVC
+namespace Open_Nerd_MVC
 {
     public class EmailService : IIdentityMessageService
     {
@@ -87,6 +87,8 @@ namespace Animal_Paradise_MVC
             }
             return manager;
         }
+
+      
     }
 
     // Configure the application sign-in manager which is used in this application.

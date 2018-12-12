@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
+using OpenNerd.Data;
 using OpenNerd.Models;
 using OpenNerd.Services;
 
@@ -9,11 +12,10 @@ namespace Open_Nerd_MVC.Controllers
     [Authorize]
     public class ProductController : Controller
     {
-        // GET: Comic
+        // GET: Product
         public ActionResult Index()
         {
-            var userId = Guid.Parse(User.Identity.GetUserId());
-            var service = new ProductService(userId);
+            var service = CreateProductService();
             var model = service.GetProducts();
 
             return View(model);
@@ -22,7 +24,15 @@ namespace Open_Nerd_MVC.Controllers
         // GET
         public ActionResult Create()
         {
+            var service = CreateAuthorService();
+            var authors = service.GetAuthors();
+            ViewBag.AuthorId = new SelectList(authors, "AuthorId", "AuthorName");
+
+            List<Genre> Genres = Enum.GetValues(typeof(Genre)).Cast<Genre>().ToList();
+            ViewBag.RequiredLevel = new SelectList(Genres);
+
             return View();
+
         }
 
         //Add code here vvvv
@@ -44,12 +54,7 @@ namespace Open_Nerd_MVC.Controllers
 
             return View(model);
         }
-        private ProductService CreateProductService()
-        {
-            var userId = Guid.Parse(User.Identity.GetUserId());
-            var service = new ProductService(userId);
-            return service;
-        }
+
         public ActionResult Details(int id)
         {
             var svc = CreateProductService();
@@ -66,9 +71,9 @@ namespace Open_Nerd_MVC.Controllers
                 {
                     ProductId = detail.ProductId,
                     Title = detail.Title,
-                    AuthorName = detail.AuthorName,
-                     Issue= detail.Issue,
-                    Type = detail.Type,
+                    AuthorId=detail.AuthorId,
+                     Volume= detail.Volume,
+                     Genre= detail.Genre,
                 };
             return View(model);
         }
@@ -106,7 +111,7 @@ namespace Open_Nerd_MVC.Controllers
         [HttpPost]
         [ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public ActionResult DeletePost(int id)
+        public ActionResult DeleteProduct(int id)
         {
             var service = CreateProductService();
 
@@ -115,6 +120,19 @@ namespace Open_Nerd_MVC.Controllers
             TempData["SaveResult"] = "Your Product was deleted";
 
             return RedirectToAction("Index");
+        }
+
+        private ProductService CreateProductService()
+        {
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new ProductService(userId);
+            return service;
+        }
+        private AuthorService CreateAuthorService()
+        {
+            var userId = Guid.Parse(User.Identity.GetUserId());
+            var service = new AuthorService(userId);
+            return service;
         }
     }
 }

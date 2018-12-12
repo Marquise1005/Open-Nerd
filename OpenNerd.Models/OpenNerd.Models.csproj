@@ -42,11 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProductCreate.cs" />
-    <Compile Include="ProductDetail.cs" />
-    <Compile Include="ProductEdit.cs" />
-    <Compile Include="ProductListItem.cs" />
+    <Compile Include="AuthorModel\AuthorCreate.cs" />
+    <Compile Include="AuthorModel\AuthorDetail.cs" />
+    <Compile Include="AuthorModel\AuthorEdit.cs" />
+    <Compile Include="AuthorModel\AuthorListItem.cs" />
+    <Compile Include="ProductModel\ProductCreate.cs" />
+    <Compile Include="ProductModel\ProductDetail.cs" />
+    <Compile Include="ProductModel\ProductEdit.cs" />
+    <Compile Include="ProductModel\ProductListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TransactionModel\TransactionCreate.cs" />
+    <Compile Include="TransactionModel\TransactionEdit.cs" />
+    <Compile Include="TransactionModel\TransactionDetail.cs" />
+    <Compile Include="TransactionModel\TransactionListItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenNerd.Data\OpenNerd.Data.csproj">
+      <Project>{8A73EAC9-CBAF-4693-A594-BE734D2F3217}</Project>
+      <Name>OpenNerd.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

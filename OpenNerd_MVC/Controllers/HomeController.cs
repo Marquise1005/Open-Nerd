@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Animal_Paradise_MVC.Controllers
+namespace Open_Nerd_MVC.Controllers
 {
     public class HomeController : Controller
     {

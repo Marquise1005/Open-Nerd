@@ -9,6 +9,16 @@
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
+@if (TempData.ContainsKey("SaveResult"))
+{
+    <div class="alert alert-success fade in" role="alert">
+        <button type="button" class="close" data-dismiss="alert">
+            <span>&times;</span>
+        </button>
+        @TempData["SaveResult"]
+    </div>
+
+}
 <table class="table">
     <tr>
         <th>
@@ -17,14 +27,15 @@
         <th>
             @Html.DisplayNameFor(model => model.Title)
         </th>
+
         <th>
-            @Html.DisplayNameFor(model => model.AuthorName)
+            @Html.DisplayNameFor(model => model.AuthorId)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Issue)
+            @Html.DisplayNameFor(model => model.Volume)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Type)
+            @Html.DisplayNameFor(model => model.Genre)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.CreatedUtc)
@@ -42,13 +53,13 @@
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.AuthorName)
+                @Html.DisplayFor(modelItem => item.AuthorId)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Issue)
+                @Html.DisplayFor(modelItem => item.Volume)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Type)
+                @Html.DisplayFor(modelItem => item.Genre)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CreatedUtc)

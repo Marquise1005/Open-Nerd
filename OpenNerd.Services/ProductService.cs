@@ -19,11 +19,12 @@ namespace OpenNerd.Services
             var entity =
                 new Product()
                 {
-                    OwnerId = _userId,
-                    Title = model.Title,
-                    Type = model.Type,
-                    AuthorName = model.AuthorName,
-                    Issue = model.Issue,
+                    CreatorId = _userId,
+                   
+                     AuthorId= model.AuthorId,
+                     Title =model.Title,
+                     Genre = model.Genre,
+                     Volume = model.Volume,
                     CreatedUtc = DateTimeOffset.Now
                 };
 
@@ -40,16 +41,17 @@ namespace OpenNerd.Services
                 var query =
                     ctx
                         .Products
-                        .Where(e => e.OwnerId == _userId)
+                        .Where(e => e.CreatorId == _userId)
                         .Select(
                             e =>
                                 new ProductListItem
                                 {
                                     ProductId = e.ProductId,
                                     Title = e.Title,
-                                   Issue = e.Issue,
-                                    AuthorName = e.AuthorName,
-                                    Type = e.Type,
+                                    AuthorName = e.Author.AuthorName,
+                                    AuthorId = e.AuthorId,
+                                   Volume = e.Volume,
+                                    Genre = e.Genre,
                                     CreatedUtc = e.CreatedUtc
                                 }
                         );
@@ -64,17 +66,18 @@ namespace OpenNerd.Services
                 var entity =
                     ctx
                         .Products
-                        .Single(e => e.ProductId == productId && e.OwnerId == _userId);
+                        .Single(e => e.ProductId == productId && e.CreatorId == _userId);
                 return
                     new ProductDetail
                     {
                         ProductId = entity.ProductId,
                         Title = entity.Title,
-                        AuthorName = entity.AuthorName,
-                        Issue = entity.Issue,
-                        Type = entity.Type,
+                        AuthorName = entity.Author.AuthorName,
+                        AuthorId = entity.AuthorId,
+                        Genre = entity.Genre,
+                        Volume = entity.Volume,
                         CreatedUtc = entity.CreatedUtc,
-                        ModifiedUtc = entity.ModifiedUtc
+                      
                     };
             }
         }
@@ -85,13 +88,13 @@ namespace OpenNerd.Services
                 var entity =
                     ctx
                         .Products
-                        .Single(e => e.ProductId == model.ProductId && e.OwnerId == _userId);
+                        .Single(e => e.ProductId == model.ProductId && e.CreatorId == _userId);
 
                 entity.Title = model.Title;
-                entity.AuthorName = model.AuthorName;
-                entity.Issue = model.Issue;
-                entity.Type = model.Type;
-                entity.ModifiedUtc = DateTimeOffset.UtcNow;
+                entity.AuthorId = model.AuthorId;
+                entity.Volume = model.Volume;
+                entity.Genre = model.Genre;
+               
 
                 return ctx.SaveChanges() == 1;
             }
@@ -103,7 +106,7 @@ namespace OpenNerd.Services
                 var entity =
                     ctx
                         .Products
-                        .Single(e => e.ProductId == productId && e.OwnerId == _userId);
+                        .Single(e => e.ProductId == productId && e.CreatorId == _userId);
 
                 ctx.Products.Remove(entity);
 

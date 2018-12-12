@@ -10,7 +10,6 @@ namespace AnimalParadise.Data.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
-            ContextKey = "OpenNerd.Data.ApplicationDbContext";
         }
 
         protected override void Seed(OpenNerd.Data.ApplicationDbContext context)

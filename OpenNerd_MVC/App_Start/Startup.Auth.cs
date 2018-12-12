@@ -5,10 +5,10 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using Animal_Paradise_MVC.Models;
+using Open_Nerd_MVC.Models;
 using OpenNerd.Data;
 
-namespace Animal_Paradise_MVC
+namespace Open_Nerd_MVC
 {
     public partial class Startup
     {

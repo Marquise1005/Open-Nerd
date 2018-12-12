@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Animal_Paradise_MVC
+namespace Open_Nerd_MVC
 {
     public class BundleConfig
     {

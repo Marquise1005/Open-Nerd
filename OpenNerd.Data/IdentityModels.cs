@@ -26,16 +26,15 @@ namespace OpenNerd.Data
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<Author> Authors { get; set; }
+       
 
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
         }
-
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Transaction> Transactions { get; set; }
-        public DbSet<Author> Authors { get; set; }
-       
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

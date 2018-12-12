@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace Animal_Paradise_MVC
+namespace Open_Nerd_MVC
 {
     public class RouteConfig
     {
