@@ -1,0 +1,16 @@
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\AnimalParadise.Models.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\AnimalParadise.Models.pdb
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\AnimalParadise.Data.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\EntityFramework.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\AnimalParadise.Data.pdb
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\AnimalParadise.Data.dll.config
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\EntityFramework.xml
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\obj\Release\OpenNerd.Models.csprojAssemblyReference.cache
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\obj\Release\OpenNerd.Models.csproj.CoreCompileInputs.cache
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\obj\Release\OpenNerd.Models.csproj.CopyComplete
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\obj\Release\AnimalParadise.Models.dll
+C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd.Models\obj\Release\AnimalParadise.Models.pdb

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd_MVC\obj\Release\Package\PackageTmp" />
+  <setAcl path="C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd_MVC\obj\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\DotNetProjects\DotNetOct2018Funsies\BlueBadgeElevenNote\Open Nerd\OpenNerd_MVC\obj\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

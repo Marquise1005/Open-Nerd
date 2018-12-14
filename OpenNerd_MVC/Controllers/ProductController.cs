@@ -28,6 +28,7 @@ namespace Open_Nerd_MVC.Controllers
             var authors = service.GetAuthors();
             ViewBag.AuthorId = new SelectList(authors, "AuthorId", "AuthorName");
 
+           
             List<Genre> Genres = Enum.GetValues(typeof(Genre)).Cast<Genre>().ToList();
             ViewBag.RequiredLevel = new SelectList(Genres);
 

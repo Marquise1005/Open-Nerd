@@ -1,0 +1,73 @@
+﻿@model IEnumerable<OpenNerd.Models.AuthorListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="jumbotron" id="homepage2">
+    <h2>Index</h2>
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    @if (TempData.ContainsKey("SaveResult"))
+    {
+        <div class="alert alert-success fade in" role="alert">
+            <button type="button" class="close" data-dismiss="alert">
+                <span>&times;</span>
+            </button>
+            @TempData["SaveResult"]
+        </div>
+
+    }
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>
+                Gender
+                @*@Html.DisplayNameFor(model => model.Gender)*@
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedUtc)
+            </th>
+
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthorId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AuthorName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Age)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Gender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedUtc)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.AuthorId }, new { style = "color:dark blue" })|
+                    @Html.ActionLink("Details", "Details", new { id = item.AuthorId }, new { style = "color:dark blue" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.AuthorId }, new { style = "color:dark blue" }) |
+                </td>
+            </tr>
+        }
+
+    </table>
+
+</div>

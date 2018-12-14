@@ -25,7 +25,7 @@ namespace Open_Nerd_MVC.Controllers
         {
             var service = CreateProductService();
             var products = service.GetProducts();
-            ViewBag.Title = new SelectList(products, "ProductId", "Title");
+            ViewBag.ProductId = new SelectList(products, "ProductId", "Title");
             return View();
         }
 

@@ -44,10 +44,10 @@ namespace Open_Nerd_MVC
                 }
 
             }
-            if (!roleManager.RoleExists("Admin"))
+            if (!roleManager.RoleExists("Creator"))
             {
                 var role = new IdentityRole();
-                role.Name = "Admin";
+                role.Name = "Creator";
                 roleManager.Create(role);
             }
             if (!roleManager.RoleExists("Customer"))

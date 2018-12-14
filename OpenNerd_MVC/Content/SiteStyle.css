@@ -1,12 +1,28 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿
+@import url('Site.css');
+
+html body {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url('Images/images (8).jpg');
+    font-size: 20px;
+    font-family: 'Signika', sans-serif;
 }
 
 /* Set padding to keep content from hitting the edges */
 .body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0px;
+    color: black;
+    font-family: 'Signika', sans-serif;
+}
+
+
+
+.container {
+    height: 90%;
+    width: 95%;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
@@ -21,5 +37,31 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+#homepage {
+   
+    text-align: center;
+    color: black;
+    width: 100%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#homepage2 {
+    
+    text-align: center;
+    color: black;
+    width: 100%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#homepage3 {
+    text-align: center;
+    color: black;
+    width: 100%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.jumbotron {
+    background-color: #7986CB;
 }
 
