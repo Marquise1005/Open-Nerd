@@ -1,7 +1,4 @@
-﻿
-@import url('Site.css');
-
-html body {
+﻿html body {
     margin-bottom: 25px;
     margin-top: 20px;
     padding-top: 0px;
@@ -65,3 +62,6 @@ textarea {
     background-color: #7986CB;
 }
 
+.index-body {
+    background-color: blue;
+}
